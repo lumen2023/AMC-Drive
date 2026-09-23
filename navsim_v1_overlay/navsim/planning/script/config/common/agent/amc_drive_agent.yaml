@@ -1,0 +1,17 @@
+_target_: navsim.agents.amc_drive.amc_drive_agent.AMCDriveAgent
+_convert_: 'all'
+
+config:
+  _target_: navsim.agents.amc_drive.amc_drive_config.AMCDriveConfig
+  _convert_: 'all'
+
+  trajectory_sampling:
+    _target_: nuplan.planning.simulation.trajectory.trajectory_sampling.TrajectorySampling
+    _convert_: 'all'
+    time_horizon: 4
+    interval_length: 0.5
+
+  latent: False
+
+checkpoint_path: ${oc.env:AMC_DRIVE_ROOT}/checkpoints/AMC-Drive_navsimv1_pdms93.9.ckpt
+lr: 1e-4

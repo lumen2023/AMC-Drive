@@ -1,0 +1,1 @@
+"""AMC-Drive extension contracts."""

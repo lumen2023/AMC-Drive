@@ -1,0 +1,5 @@
+decoder_family: diffusion
+sample_semantics: stochastic_sample
+candidate_count: 32
+status: interface_protocol_only
+requires_endpoint_validation: true

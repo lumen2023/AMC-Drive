@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "AMC-Drive: Learning Redundancy-Aware Effective Multimodality for End-to-End Autonomous Driving"
+message: "If you use AMC-Drive, please cite this repository and the upstream Drive-JEPA and NAVSIM papers."
+type: software
+authors:
+  - family-names: Liu
+    given-names: Yongzhi
+repository-code: "https://github.com/lumen2023/AMC-Drive"
+abstract: "AMC-Drive is a Drive-JEPA-lineage proposal-based driving planner that calibrates fixed-budget proposal organization in consequence space while preserving the deployable K=32 NAVSIM interface."
+keywords:
+  - autonomous driving
+  - multimodal planning
+  - effective multimodality
+  - NAVSIM
+  - Drive-JEPA
+license: "Apache-2.0"
+references:
+  - type: article
+    title: "Drive-JEPA: Video JEPA Meets Multimodal Trajectory Distillation for End-to-End Driving"
+    authors:
+      - family-names: Wang
+        given-names: Linhan
+    year: 2026
+    url: "https://arxiv.org/abs/2601.22032"
+  - type: article
+    title: "NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking"
+    authors:
+      - family-names: Dauner
+        given-names: Daniel
+    year: 2024
+    url: "https://arxiv.org/abs/2406.15349"

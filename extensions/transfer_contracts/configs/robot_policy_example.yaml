@@ -1,0 +1,5 @@
+decoder_family: robot_policy
+sample_semantics: action_chunk
+candidate_count: 32
+status: interface_protocol_only
+requires_endpoint_validation: true
