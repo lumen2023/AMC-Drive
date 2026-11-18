@@ -49,9 +49,10 @@ The V1 release package records the following NAVSIM v1 evidence:
 - Prediction count: `12146`
 - Component summary: `NC 98.7`, `DAC 98.6`, `EP 92.2`, `C 99.8`, `TTC 95.8`
 
-The V2 and HUGSIM values are roadmap items for later release packages unless
-their full checkpoints, evaluator manifests, and reproduction scripts are added
-to this repository.
+The paper reports **0.4322 HD-Score (43.22/100)** on the full HUGSIM
+closed-loop benchmark of 436 scenarios, without HUGSIM-specific fine-tuning.
+The full NAVSIM v2 and HUGSIM reproducibility packages are planned for later
+releases.
 
 ## Architecture
 
